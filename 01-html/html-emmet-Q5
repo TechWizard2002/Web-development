@@ -1,0 +1,29 @@
+What is emmets List some of the advantages emmet offers
+----------------------------------------------------
+Emmet is a text expansion tool for HTML, CSS, and JavaScript. It allows you to write HTML and CSS code more quickly and easily by using abbreviations and shortcuts. Emmet is supported by many popular text editors and IDEs, including Atom, Sublime Text, Visual Studio Code, and Eclipse.
+
+advantages:
+Increased productivity
+Reduced errors
+Improved readability
+
+To create a heading, you can use the following Emmet abbreviation:
+h1
+This will create the following HTML code:
+<h1></h1>
+To create a paragraph, you can use the following Emmet abbreviation:
+p
+This will create the following HTML code:
+<p></p>
+To create a paragraph with a heading, you can use the following Emmet abbreviation:
+p+h1
+This will create the following HTML code:   
+<p><h1></h1></p>
+To create 3 paragraph inside a section, you can use the following Emmet abbreviation:
+section>p*3
+This will create the following HTML code:
+    <section>
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>

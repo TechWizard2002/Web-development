@@ -1,0 +1,24 @@
+What are self-closing tags Write a brief note on meta tags
+----------------------
+
+
+Self-closing tags are HTML tags that do not have a closing tag. They are used to represent elements that have no content. The self-closing tag is denoted by a forward slash (/) at the end of the opening tag.
+
+For example:
+<img src="image.jpg" />
+
+meta Tags
+------------
+Meta tags are HTML elements that provide additional information about a web page. 
+(meta means data about data)
+purposes of meta tags:
+Describing the content of the page
+Indicating the language of the page
+Specifying the author of the page
+Setting the page's viewport
+Optimizing the page for search engines
+example:
+
+The meta tag 
+<meta charset="UTF-8">
+tells the browser to use the UTF-8 character encoding when translating machine code into human-readable text and vice versa to be displayed in the browser.

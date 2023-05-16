@@ -1,0 +1,36 @@
+Write a short note on tags, elements, and attributes along ith relevant examples
+------------------------------------------------------------------------------
+Tags
+----
+Tags are used to identify HTML elements. They are always enclosed in angle brackets (< and >).
+Tags can be either opening tags or closing tags. 
+Opening tags indicate the beginning of an element, while closing tags indicate the end of an element.
+example:
+    <h1>This is a heading</h1>
+    <h1> ->opening tag of heading element.
+    </h1> ->closing tag of heading element.
+self closing tags: there is only opening tag. example: <br /> or <br> , <img> ,<hr>
+
+
+elements
+---------
+
+Elements are the basic building blocks of HTML pages. They are made up of tags and content. The content of an element can be text, images, other elements, or a combination of these.
+(elemetnt = <tag> content </tag>)
+example: <h1>This is a heading </h1> -> element
+          h1 -> is tag
+          This is a heading -> is content
+
+attributes
+----------
+Attributes are used to provide additional information about elements. They are always specified in the opening tag of an element. Attributes are made up of a name and a value. The name is a unique identifier for the attribute, while the value is the data that is associated with the attribute
+example: <h1 title="This is the title of the heading">This is a heading</h1>
+        title ->is attribute
+        This is the title of the heading -> is value
+
+        <section id="welcome-section"> </section>
+        id -> is attribute
+        welcome-section -> is value
+        
+
+

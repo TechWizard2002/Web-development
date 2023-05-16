@@ -1,0 +1,15 @@
+What are global attributes List any 5 global attributes.
+-----------------------------------
+
+Global attributes are attributes that can be used with any HTML element. They are not specific to any particular element.
+
+id - Specifies a unique identifier for the element.
+
+class - Specifies one or more CSS classes to be applied to the element.
+
+style - Specifies the style for the element.
+
+title - Specifies a title for the element.
+
+lang - Specifies the language of the element's content.
+

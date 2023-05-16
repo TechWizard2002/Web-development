@@ -1,0 +1,62 @@
+Explain in brief about the nesting operators in emmet
+---------------------------------------
+Child: >
+You can use the > operator to nest elements inside each other.
+
+    table>tr*2>td*3
+    Emmet abbreviation will create a table with two rows and three columns:
+
+
+Sibling: +
+----------
+you can use the + operator to place elements near each other, on the same level.
+header+main+footer
+ Emmet abbreviation will create a header section, a main sectionn, and a footer section, all on the same line.
+
+Climb-up: ^
+-----------
+you can use the ^ operator to climb one level up and place the element in that position. 
+
+h1^p
+output will be:
+<h1></h1>
+<p></p>
+
+Multiplication: *
+-----------------
+You can use the * operator to define how many times an element should be outputted.
+
+ul>li*5
+
+Grouping: ()
+---------------
+You can use the () operator to group subtrees in complex abbreviations. 
+
+table>tbody>(tr>td*5)*3
+output will be:
+table with 3 rows and 5 columns.
+ <table>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
