@@ -1,0 +1,18 @@
+what is web accessibility? list some of the assistive device which play a major role in providing accesibility
+-------------------------
+
+Web accessibility refers to the practice of designing and developing websites and web applications in a way that makes them usable for all individuals, including those with disabilities. The goal of web accessibility is to ensure that people with various impairments, such as visual, auditory, motor, or cognitive disabilities, can perceive, navigate, interact with, and understand web content effectively.
+
+Screen Readers: Software that reads aloud the text displayed on the screen, allowing blind and visually impaired users to access web content. Examples include JAWS (Job Access With Speech), NVDA (NonVisual Desktop Access), and VoiceOver.
+
+Screen Magnifiers: Tools that enlarge the content on the screen, assisting users with low vision to read and interact with the web content.
+
+Braille Displays: These devices translate on-screen text into Braille, allowing blind users to read the content with their fingers.
+
+Voice Recognition Software: Enables users to interact with a computer or device using voice commands, helping individuals with physical disabilities or limited dexterity.
+
+Keyboard Navigators: Alternative input devices that allow users to navigate and interact with web content using keyboard commands instead of a traditional mouse.
+
+Closed Captioning and Subtitles: Assistive features for people who are deaf or hard of hearing, providing a text-based representation of audio content.
+
+Alternative Text (Alt Text): Descriptive text added to images, providing context and information for screen readers to convey to blind users.

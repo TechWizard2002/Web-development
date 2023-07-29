@@ -1,0 +1,29 @@
+List out the features of HTML 5
+-----------------------------------
+
+[1]
+Semantic elements: HTML 5 introduces new semantic elements that make it easier to structure web pages. For example, there are now separate elements for headers, footers, sections, and articles. This makes it easier for search engines and other applications to understand the content of a web page.
+
+[2]
+Local storage: HTML 5 provides a way to store data on the user's device. This data can be used to store user preferences, game progress, or any other type of data that you want to persist between visits to your website.
+
+[3]
+Audio and video support: HTML 5 provides native support for audio and video playback. This means that you can embed audio and video files in your web pages without having to rely on third-party plugins.
+
+[4]
+HTML5 provides a number of APIs that can be used to access and interact with data and services on the web
+
+[5]
+Canvas: The <canvas> element enables dynamic rendering of graphics, animations, and interactive visualizations through JavaScript. It has become the foundation for many modern web games and interactive applications.
+
+[6]
+Offline Web Applications: HTML5 introduces the Application Cache (manifest attribute), which allows web applications to be cached locally, enabling users to access them offline.
+
+[7]
+Geolocation: HTML5 allows web applications to access the user's geolocation (with user permission), enabling location-based services and personalized content.
+
+[8]
+Drag and Drop: HTML5 enables drag-and-drop functionality, allowing users to drag elements and drop them into predefined areas, improving the overall user experience.
+
+[9]
+Web Workers: HTML5 introduces Web Workers, which enable multi-threading in JavaScript, allowing computationally intensive tasks to run in the background without affecting the main user interface thread.

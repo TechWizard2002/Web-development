@@ -1,0 +1,17 @@
+list any five semantic tag in HTML along with their discription 
+
+<header>:
+Description: The <header> element represents the introductory or navigational section at the top of a webpage or a section of content. It typically contains logos, headings, navigation menus, and other introductory elements. It helps to identify the main heading or title of a page and provides context for the content that follows.
+
+<nav>:
+Description: The <nav> element is used to define a section of content that contains navigation links, menus, or other navigation-related elements. It is intended to mark the primary navigation area of a webpage. When screen readers encounter a <nav> element, they can announce its presence and offer navigation options to users
+
+main>:
+Description: The <main> element is used to identify the main content area of a webpage. It should contain the primary content that is unique to that page. Screen readers and search engines use the <main> element to understand what the central focus of the page is, which can be helpful for accessibility and SEO purposes.
+
+article>:
+Description: The <article> element represents a self-contained piece of content that could be distributed and reused independently. It is intended to mark standalone content, such as blog posts, news articles, forum posts, or product listings. By using the <article> element, you make it easier for assistive technologies and search engines to identify and distinguish individual pieces of content.
+
+<footer>:
+Description: The <footer> element represents the footer section of a webpage or a section of content. It typically contains information about the author, copyright notices, contact details, and links to related documents or pages. The <footer> helps users understand the end of the content or the page and provides additional context or supplementary information.
+
