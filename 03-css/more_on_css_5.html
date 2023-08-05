@@ -1,0 +1,37 @@
+<!-- create a simple web page with an image. add a hover effect to the image  where the border color changes and the image must be circular on hover. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circular</title>
+    <style>
+        img {
+            display: block;
+            width: 300px;
+            height: 300px;
+        }
+        .circular {
+            margin: 30px auto;
+            border: 5px solid rgb(172, 100, 0);
+        }
+        .circular:hover{
+            border-radius: 50%;
+            border: 5px solid green;
+        }
+        p{
+            text-align: center;
+            color: rgb(167, 114, 18);
+            font-weight: bolder;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+        <img class="circular" src="media/full_stack_development.png" alt="web developmentcourse " title="pw skills">
+        <p>FULL STACK DEVELOPMENT</p>
+    
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!-- create a navigation bar similar to question1. for each navigation item use a dufferent border style. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: block;
+            background-color: rgb(91, 126, 215);
+            padding: 20px;
+            margin: 0;
+
+        }
+
+        nav a:hover {
+            text-decoration: none;
+            color: rgb(161, 11, 116);
+            font-weight: bold;
+        }
+
+        nav a {
+            color: rgb(247, 245, 243);
+
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 10px;
+
+        }
+
+        nav li:nth-child(1) {
+            border: 4px dashed orange;
+        }
+
+        nav li:nth-child(2) {
+            border: 4px dotted rgb(193, 11, 181);
+        }
+
+        nav li:nth-child(3) {
+            border: 4px double rgb(204, 55, 80);
+        }
+
+        nav li:nth-child(4) {
+            border: 4px groove rgb(34, 60, 120);
+        }
+
+        nav li:nth-child(5) {
+            border: 4px inset rgb(34, 60, 120);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#aboutus">About Us</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

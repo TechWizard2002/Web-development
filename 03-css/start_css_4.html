@@ -1,0 +1,56 @@
+<!-- 
+
+    create a web page with list of tech stacks involved in full stack web development where the eveen numbered items have a different bakground color than the odd numbered items.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth child</title>
+    <style>
+        .stacks{
+            list-style: none;
+            
+        }
+        ul.stacks :nth-child(odd){
+            background-color: aquamarine;
+           
+        }
+        
+        ul.stacks :nth-child(even){
+            background-color: rgb(194, 94, 201);
+        }
+        main{
+            display: flex;
+            justify-content: center;
+        }
+        header h1{
+            text-align: center;
+
+        }
+        li{
+            border-radius: 5px;
+            font-size: large;
+            padding:.3rem ;
+            margin-bottom: 5px;
+        }
+    </style>
+ </head>
+ <body>
+    <header>
+        <h1>Full stack web development</h1>
+    </header>    
+    <main>
+            <ul class="stacks">
+                <li>LAMP Stack</li>
+                <li>MEAN Stack</li>
+                <li>MERN Stack</li>
+                <li>Django Stack</li>
+                <li>Ruby on Rails Stack</li>
+            </ul>
+    </main>
+    
+ </body>
+ </html>

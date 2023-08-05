@@ -1,0 +1,40 @@
+<!-- 
+    create a web page with an image that hidden until it is hoveerd over . use a heading above the  image  that syas hover below to reveal a surprise.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURPRISE</title>
+    <style>
+        body{
+            background-color: #000000;
+            color: aliceblue;
+        }
+        .surprise img{
+            margin-top: 5px;
+            border-radius: 7px;
+            width: 600px;
+            opacity: 0;
+            transition: opacity 1s;
+        }
+        .surprise img:hover{
+            opacity: 1;
+        }
+        .surprise{
+            text-align: center;
+        }
+    </style>
+ </head>
+ <body>
+    <header>
+    </header>
+    <main>
+        <section class="surprise">
+            <h2>HEY HOVER BELOW TO REVEAL A SURPRISE </h2>
+            <img src="./media/sample-photo.jpg" alt="">
+        </section>
+    </main>
+ </body>
+ </html>

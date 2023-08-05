@@ -1,0 +1,39 @@
+<!-- create a simple web page with a card similar to question number 2. The card must be traparent by default and on hovering the card must be displayed clearly .Use CSS opacity to achieve this output -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-card img{
+            border-radius: 10px;
+            opacity: 0.7;
+        }
+        .image-card img:hover{
+            opacity: 1;
+        }
+        .image-container {
+        margin: 0 auto;
+        background-color: rgb(201, 132, 52);
+        width: 456px;
+        padding: 10px 10px 5px 10px;
+        border-radius: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <div class="image-card">
+            <img src="media/full_stack_development.png" alt="">
+            <p class="img-description">
+                <b>Course name :</b> PW skills sigma 2.0
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

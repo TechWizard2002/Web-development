@@ -1,0 +1,61 @@
+<!-- create a web page with a registration form,using the css attribute selector change the  text color of each input field to any other color.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"],input[type="email"],input[type="password"]{
+            color: rgb(117, 23, 125);
+        }
+        .reg-form label{
+            display: block ;
+            margin: 2px ;
+        }
+        .reg-form {
+            margin: 0 auto;
+            max-width: 150px;
+            min-width: 100px;
+        }
+        .reg-form button {
+            display: block;
+            background-color: #90abe9;
+            margin: 10px auto;
+            border-radius: 4px;
+        }
+        .reg-form button:hover{
+            cursor:  pointer ;
+            background-color: #116c2e;
+            color: antiquewhite;
+
+        }
+        header{
+            text-align:center ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>REGISTRATION FORM</h1>
+    </header>
+    <main>
+        <form action="register.js" class="reg-form">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <button type="submit">Register</button>
+
+        </form>
+    </main>
+</body>
+</html>
