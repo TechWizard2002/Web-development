@@ -1,0 +1,71 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Oswald:wght@500&family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: aliceblue;
+}
+body{
+    background-color: #231e1e;
+    font-size: 16px;
+    font-family: 'PT Serif', serif;
+    min-width: 600px;
+}
+.float-left{
+    width: 150px;
+    height: 100vh;
+    float: left;
+    margin-right: 30px;
+    
+}
+.navbar{
+    box-shadow: 5px 0px 20px rgba(24, 48, 146, 0.2) ;
+    background-color: #333240;
+    z-index: 1;
+}
+.navbar-nav{
+    list-style: none ;
+    padding: 0px 10px 10px  opx; 
+    vertical-align: text-top;
+}
+.nav-item{
+   border-bottom: 2px dotted #201e1e;
+   margin: bottom 2px ;
+   padding:10px 20px ;
+
+}
+.nav-link {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: rgb(54, 124, 143);
+    transition:.3s ease all;
+}
+
+img{
+    display: block;
+    width: 400px;
+    height: 250px;
+    margin: 10px auto;
+}
+.blue{
+    color: rgb(31, 90, 150);
+    
+}
+.sub-heading{
+    text-align: center;
+    padding-top: 20px ;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.heading{
+    background-color: #6043cc;
+}
+.head:hover{
+    color: #110a2c;
+    transition:.7s ease all;
+}

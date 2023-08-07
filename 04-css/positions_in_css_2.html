@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&family=Montserrat:ital,wght@1,100&family=Oswald:wght@500&family=PT+Serif:ital@1&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            font-size: 20px;
+            font-family: 'Edu SA Beginner', cursive;
+        }
+        body{
+            margin-top:200px ;
+            margin-left:100px ;
+            background-color: #000000;
+            color: aliceblue;
+        }
+        .float-right{
+            float: right;
+        }
+        
+        img{
+            width: 400px;
+            height: 400px;
+        }
+        @media only screen and (max-width:1050px){
+            img{
+            width: 300px;
+            height: 300px;
+            }
+
+        }
+        @media only screen and (max-width:445px){
+            .float-right{
+                float: none;
+            }  
+        }
+       
+        .content h1{
+            margin-bottom: 20px;
+            font-size: 35px;
+            font-weight: 900;
+            color: rgb(100, 167, 38);
+        }
+        .content button{
+            margin-top: 25px;
+            padding: 5px;
+            border-radius: 7px;
+            border: 2px solid white ;
+            color: aliceblue;
+            background-color: rgb(95, 95, 188);
+            cursor: pointer;
+
+        }
+        .content button:hover{
+            background-color: rgb(35, 84, 10);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="image float-right">
+            <img src="assets/hall-of-fame-hero-img.svg" alt="">
+        </div>
+        <section class="content">
+            <h1>PW Skills Hall of Fame</h1>
+            <p>We are proud of our achievrs to have proved their sucess through hard-work and dedication which has enabled them to make their dreams come true. You too can be part of the PW Skills schiever group onlyif you stay consistent and be determined. </p>
+            <button>Share your Story</button>
+        </section>
+    </main>
+</body>
+</html>
