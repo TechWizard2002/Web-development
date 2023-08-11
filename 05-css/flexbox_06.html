@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  />
+  
+<style>
+
+  *{
+      box-sizing: border-box;
+      margin: 0;
+      outline: 0;    
+  }
+  .main-body{
+      background-color: #323232;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 10%;
+  
+  }
+  .log{
+      display: flex;
+    
+  }
+  .search-bar {
+      width: 100%;
+      border: 1px solid #6e7277;
+      border-radius: 50px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      padding: 5px 20px;
+      gap: 10px;
+      overflow: hidden;
+      max-width: 740px;
+    }
+    .sub-image {
+      width: 40px;
+    }
+    .search-bar input {
+      flex-grow: 1;
+      background-color: #323232;
+      border: none;
+      color: aliceblue;
+    }
+    span{
+      color: rgb(180, 182, 184);
+    }
+
+</style>
+</head>
+<body>
+    <div class="main-body">
+        <div class="logo">
+            <img src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+        <div class="search-bar">
+            <label for="serch-text">
+                <div>
+                    <span class="material-symbols-outlined" > search </span>
+                </div>
+            </label>
+            
+            <input type="text" id="serch-text"/>
+            <a href="#">
+                <img
+                class="sub-image"
+                src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png"
+                alt="MicroPhone"
+              />
+            </a>
+           
+            <a href="#">
+                <img
+              class="sub-image"
+              src="https://cdn.icon-icons.com/icons2/2642/PNG/512/google_lens_logo_icon_159340.png"
+              alt="Lens"
+            />
+            </a> 
+          </div>
+    </div>
+</body>
+</html>

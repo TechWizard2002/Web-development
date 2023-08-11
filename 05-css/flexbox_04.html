@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+    nav{
+        display: flex;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 7%;
+
+    }
+    hr{
+        margin: 0px 7%;
+        border: 1px solid #c1b5b5;
+    }
+    .logo-section{
+        display: flex;
+        gap: 10px;
+        font-size: 20px;
+        align-items: center;
+    }
+    .logo-section >img{
+        height: 38px;
+
+    }
+    title {
+        background-color: #6697c5;
+        color: #fff;
+    }
+    .button-section {
+        display: flex;
+        gap: 40px;
+    }
+    .button-1{
+        border: 0;
+        background-color: #fff;
+        color: #5353e8;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .button-2{
+        border-radius: 5px;
+        border: 1px solid #c1b5b5;
+        background-color: #fff;
+        color: #5353e8;
+        font-size: 16px;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    .button-3{
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px 15px;
+        background-color:  #5353e8;
+        color:#fff;
+        border: 0;
+        border-radius: 5px;
+    }
+    
+    body {
+        font-family: "Open Sans", sans-serif;
+      }
+    /* main section styling */
+    .main-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 7%;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+    
+    .heading{
+        font-size: 45px;
+        
+
+    }
+    .subsection-1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 500px;
+        width:  500px;
+        min-width: 200px;
+    }
+    .subsection-2{
+        height: 500px;
+        min-width: 200px;
+        width: 500px;
+     
+    }
+    .subsection-2 > img{
+        width:100%;
+    }
+    .main-button{
+        margin-top: 20px;
+
+        display: flex;
+        gap: 30px;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo-section">
+                <img   data-tooltip="Gmail" src="https://www.google.com/gmail/about/static-2.0/images/logo-gmail.png?fingerprint=c2eaf4aae389c3f885e97081bb197b97" alt="">
+                <p>Gmail</p>
+            </div>
+            <div class="button-section">
+                <button class="button-1">For Work</button>
+                <button class="button-2">Sign In</button>
+                <button class="button-3">Create an account</button>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div class="main-section">
+            <div class="subsection-1">
+                <h1 class="heading">Secure,Smart,  
+                <br>and easy to use email</h1>
+                <p class="discription">Get more done with Gmail. Now integrated with Google Chat, Google Meet, and more, all in one place.</p>
+                <div class="main-button">
+                    <button class="button-3">Create an account</button>
+                    <button class="button-1">For Work</button>
+
+                </div>
+            </div>
+            <div class="subsection-2">
+                <img src="https://lh3.googleusercontent.com/PWXM4hp9lRRezHTV86SqLwhRQMz4_Lk08jll3GkWBvBZy_Uk6kvUvwIrVilwaIW2mHZJoccchG6o9a5UdOJEwQPf9oJGmOGSglo3VW0=rw-e365-w2880" alt="image of gmail">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
